@@ -1,0 +1,178 @@
+#adminbar {
+    background: linear-gradient(to bottom, #65A5E5 0, #4979A9 100%) repeat;
+    border-bottom: 1px solid #3D698E;
+    height: 20px;
+    width: 100%;
+    padding: 5px;
+    color: #FFF;
+}
+/*OCULTAR EL CARRUSEL*/
+.carousal-container {
+    display: none;
+}
+
+/* PAGINA LOGIN*/
+#loginBody{
+    background: #FFFFFF;
+}
+#logo_login {
+    background: url("../images/logo.png") no-repeat;
+    width: 229px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+div#forgotPasswordDiv {
+    position: relative;
+    top: 90px;
+    right: 160px;
+    border: 0;
+    height: 0;
+    box-shadow: none;
+    background-color: transparent;
+}
+#loginBox {
+    border: 2px solid #C0C0FF;
+    box-shadow: 0 0 15px #AAA;
+    background: url('../images/bg_login.png') repeat-x;
+    width:700px;
+    height: 390px;
+    margin:5% auto 0 auto;
+    padding:1em;
+    padding-bottom: 1em;
+    text-align:center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#loginBox form {
+    width: 420px;
+    margin: 0 auto;
+    overflow: hidden;
+    left: 230px;
+    position: relative;
+    top: -145px;
+
+}
+.login-subscript {
+    position: relative;
+    top: -50px;
+    right: 215px;
+    bottom: 30px;
+}
+.login-subscript a {
+    color: #888;
+}
+.loginForgot {
+    position: relative;
+    left: 312px;
+    bottom: 62px;
+}
+.loginForgot a {
+    color: #888;
+}
+.alert.alert-error {
+    width: 323px;
+    position: relative;
+    left: 46px;
+}
+
+#loginBox h3{
+    margin-top: 20px;
+    padding-left: 30px;
+}
+#login-title span {
+    padding-left: 0;
+    margin-left: 40px;
+}
+#logo_login_lrg {
+    position: relative;
+    top: 11px;
+    width: 229px;
+    height: 32px;
+    background: url("../images/logo.png") no-repeat;
+}
+
+#login-left {
+    background: url("../images/bullets.gif") no-repeat;
+    position: relative;
+    height: 158px;
+    left: 35px;
+    width: 213px;
+}
+.login-header {
+    background: transparent url("../images/ingresar.gif") no-repeat;
+    border-bottom: 2px dotted #C0C0FF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    height: 32px;
+    line-height: 30px;
+    width: 273px;
+    left: 70px;
+
+    position: relative;
+}
+
+/* PAGINA LOGIN*/
+
+/* PAGINA RESCUE LOGIN*/
+form#rescuePwrd {
+    position: initial;
+}
+/* PAGINA RESCUE LOGIN*/
+div#loginDiv {
+    margin-top: -46px;
+    margin-left: -47px;
+    width: 655px;
+    height: 247px;
+    box-shadow: none;
+
+}
+
+#boxlogin {
+    background: transparent url("../images/bg_login.png") repeat-x;
+    position: relative;
+    margin: auto;
+    text-align: left;
+    width: 700px;
+    height: 350px;
+    border: 2px solid #C0C0FF;
+    box-shadow: 0 0 15px #AAA;
+}
+
+#login-top {
+    height: 60px;
+    margin: 25px 15px 15px;
+}
+
+#login-title {
+    margin-bottom: 40px;
+    background: transparent url("../images/ingresar.gif") no-repeat;
+    border-bottom: 2px dotted #C0C0FF;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    height: 32px;
+    line-height: 30px;
+    top: 40px;
+    width: 315px;
+    left: 300px;
+    position: relative;
+}
+
+#login-left {
+    background: transparent url("../images/bullets.gif") no-repeat;
+    position: relative;
+    height: 158px;
+    left: 35px;
+    top: -28px;
+    width: 213px;
+}
+/*FOOTER*/
+/*OCULTA EL FOOTER*/
+.navbar.navbar-fixed-bottom {
+    display: none;
+}
